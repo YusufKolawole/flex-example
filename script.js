@@ -6,4 +6,4 @@
 // root.style.setProperty('--bg', 'teal')
 
 
-alert("hello world")
+// alert("hello world")
