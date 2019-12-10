@@ -9,5 +9,60 @@
     <script src="script.js"></script>
 </head>
 <body>
-       
+       <div class="container">
+           <header>
+               <h1>Ink</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/features">Features</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
+                    <li><a href="/support">Support</a></li>
+                    <li class="nav-right"><a href="/about">About</a></li>
+                </ul>
+            </nav>
+
+            <!---------------------------------------0---->
+
+            <main class="flex">
+                <div class="column-main tile">
+                    <h1>Team collaboration done right</h1>
+                    <p>
+                        Thousands of teams all over the world turn to 
+                        <strong>Ink</strong> to communicate and get things done
+                    </p>
+                </div>
+
+                <!----------------------------------------------->
+                <aside class="column-sidebar">
+                    <div class="tile">
+                        <form action="" class="login-from">
+                            <h3>Login</h3>
+                            <p>
+                                <label for="username">Usernamer</label>
+                                <input type="text" id="username">
+                            </p>
+                            <p>
+                                <label for="password" class="password">
+                                    <input type="password" id="password"/>
+                                </label>
+                            </p>
+                            <button type="submit">Login</button>
+                        </form>
+                    </div>
+                    <div class="tile centered">
+                        <small>Starting at</small>
+                        <div class="cost">
+                            <span class="cost-currency">$</span>
+                            <span class="cost-dollar">20</span>
+                            <span class="cost-cent">.00</span>
+                        </div>
+                        <a href="/pricing" class="cta-button">
+                        Sign up
+                    </a>
+                    </div>
+                </aside>
+            </main>
+       </div>
 </html>
