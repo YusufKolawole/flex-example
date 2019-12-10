@@ -30,6 +30,12 @@ header{
     border-radius: .5em;
 }
 
+.clearfix::after{
+    display: block;
+    content: " ";
+    clear: both;
+}
+
 /* centering of webpage */
 
 .container{
@@ -37,3 +43,10 @@ header{
     margin: 0 auto;
 }
 
+.media{
+    float : left;
+    width : 50%;
+    padding: 1.5em;
+    background-color: #eee;
+    border-radius: .5em;
+}
