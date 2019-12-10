@@ -29,3 +29,11 @@ header{
     background-color: #fff;
     border-radius: .5em;
 }
+
+/* centering of webpage */
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
